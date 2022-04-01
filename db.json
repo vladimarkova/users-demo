@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "George",
+      "st": "online"
+    },
+    {
+      "id": 2,
+      "name": "Mary",
+      "st": "online"
+    },
+    {
+      "id": 3,
+      "name": "Linda",
+      "st": "offline"
+    }
+  ]
+}

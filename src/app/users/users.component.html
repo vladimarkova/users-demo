@@ -1,0 +1,17 @@
+<label for="user">User: </label>
+<input type="text" id="user" name="user" [(ngModel)]="user">
+
+<label for="st">Status:</label>
+<input type="text" id="st" name="st" [(ngModel)]="st">
+
+<button (click)="addUser()">Add user</button>
+
+<div>
+    <ul>
+        <li *ngFor="let user of users">
+            <h3>{{ user.name }}</h3>
+            <h4>{{ user.st }}</h4>
+            <button (click)="deleteUser(user)">Delete user</button>
+        </li>
+    </ul>
+</div>
